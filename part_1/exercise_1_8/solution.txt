@@ -1,0 +1,5 @@
+Command to build Dockerfile:
+docker build . -t curler
+
+Command to run Dockerfile:
+docker run web-server

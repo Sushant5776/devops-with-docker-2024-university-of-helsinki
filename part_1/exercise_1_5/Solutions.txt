@@ -1,0 +1,7 @@
+Size Comparison:
+
+Alpine is a lightweight image that the ubuntu as Alpine is just 15.7 MB and the image build of ubuntu is 83 MB.
+
+Secret Message Validation:
+
+Both the ubuntu and Alpine provide same secret message 'You can find the source code here: https://github.com/docker-hy'.

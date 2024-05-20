@@ -1,0 +1,11 @@
+Command to run the container from devopsdockeruh/simple-web-service:ubuntu image:
+
+docker run -d -it --name exercise13 devopsdockeruh/simple-web-service:ubuntu
+
+Command to enter into the container:
+
+docker exec -it exercise13 bash
+
+Secret message:
+
+You can find the source code here: https://github.com/docker-hy

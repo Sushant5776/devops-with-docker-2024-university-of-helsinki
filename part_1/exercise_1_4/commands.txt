@@ -1,0 +1,10 @@
+Command for starting up the container:
+
+docker run -it --name exercise14 --dns 8.8.8.8 ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching...'; sleep 1; curl http://$website; done"
+
+Commands to getting into the container and installing curl package:
+
+docker exec -it exercise14 bash
+
+apt-get update
+apt-get -y install curl

@@ -1,0 +1,5 @@
+Command to publish host port to container:
+
+docker run -p 127.0.0.1:3000:8080 curler
+
+Note: curler is the name of image build from devopsdockeruh/simple-web-service:alpine which has "server" as default argument.

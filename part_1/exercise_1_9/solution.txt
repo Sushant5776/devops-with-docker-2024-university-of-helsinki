@@ -1,0 +1,3 @@
+Command to bind mount a file locally created called text.log so that container will log to local file instead of a file inside the container:
+
+docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service

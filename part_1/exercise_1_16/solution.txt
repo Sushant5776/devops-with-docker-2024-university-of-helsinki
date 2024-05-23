@@ -1,5 +1,7 @@
 Link to live website: https://coursepage-5hmu.onrender.com/
 
+I have deployed course content image (devopsdockeruh/coursepage)
+
 I do not have dockerfile as the 'render' platform for deployment has feature to deploy images directly from docker hub!
 
 Steps:

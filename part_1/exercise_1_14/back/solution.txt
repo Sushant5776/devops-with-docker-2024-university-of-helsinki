@@ -1,0 +1,3 @@
+Command to create image and run:
+
+docker build -t exercise_114_back . && docker run -p 8080:8080 exercise_114_back

@@ -1,0 +1,10 @@
+Link to live website: https://coursepage-5hmu.onrender.com/
+
+I do not have dockerfile as the 'render' platform for deployment has feature to deploy images directly from docker hub!
+
+Steps:
+1. Login to Render
+2. Create a New Project
+3. Select Docker Deployment
+4. Provide Image URL
+5. Hit Deploy

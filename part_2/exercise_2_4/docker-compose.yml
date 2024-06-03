@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend-service:
+    build:
+      context: ./frontend
+    container_name: frontend_container
+    ports:
+      - "5000:5000"
+  backend-service:
+    build:
+      context: ./backend
+    container_name: backend_container
+    ports:
+      - "8080:8080"
+  redis-service:
+    image: redis
+    container_name: redis_container
+    expose:
+      - 6379

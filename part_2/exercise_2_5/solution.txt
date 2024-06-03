@@ -1,0 +1,3 @@
+Command used to solve:
+
+docker compose up --scale compute=5

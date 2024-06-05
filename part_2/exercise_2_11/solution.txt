@@ -1,0 +1,4 @@
+- I have used one of my project in next.js which without knowledge of docker (containerization), I used to develop locally and it was hard to provide it to someone for changes.
+- GitHub has always worked however the setup has to be done on the receiver's host machine. (Installing dependencies, technologies, softwares, etc).
+- With the help of docker now I can just share image and running the image anyone cross platform will be able to run my project and without any configuration or setup on their host machine.
+- This is insane and I am happy that I know it!

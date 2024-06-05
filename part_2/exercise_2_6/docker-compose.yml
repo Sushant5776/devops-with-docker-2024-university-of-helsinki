@@ -11,12 +11,21 @@ services:
     build:
       context: ./backend
     container_name: backend_container
-    ports:
-      - "8080:8080"
     environment:
       - REDIS_HOST=redis-service
+      - POSTGRES_HOST=database-service
+      - POSTGRES_PASSWORD=secretpass
+    ports:
+      - "8080:8080"
   redis-service:
     image: redis
     container_name: redis_container
     expose:
       - 6379
+  database-service:
+    image: postgres:14-alpine
+    container_name: database_container
+    environment:
+      - POSTGRES_PASSWORD=secretpass
+    expose:
+      - 5432

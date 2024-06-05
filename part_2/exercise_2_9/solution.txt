@@ -1,0 +1,4 @@
+Changes:
+
+1. Changed the REQUEST_ORIGIN in backend's Dockerfile to http://localhost
+2. Changed the REACT_APP_BACKEND_URL in frontend's Dockerfile to http://localhost/api/

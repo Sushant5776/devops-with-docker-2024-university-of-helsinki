@@ -1,0 +1,5 @@
+I have used the powershell script as I am running docker on windows and to use docker cli I need to pass commands as powershell commands.
+
+- builder.ps1 is the script to run on windows machine.
+- Change the line number 18 by replacing <docker hub username> with the actual docker hub username and <docker hub password> with actual docker hub password
+- Run the script with powershell command ==> .\builder.ps1 -gitHubRepo mluukkai/express_app -dockerHubRepo garudkar/testing

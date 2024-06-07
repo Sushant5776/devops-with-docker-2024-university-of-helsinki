@@ -1,0 +1,4 @@
+Commands used to run container:
+
+- docker run -t builder .
+- docker run -e DOCKER_USER=<docker username> -e DOCKER_PWD=<docker password> -v /var/run/docker.sock:/var/run/docker.sock builder https://github.com/mluukkai/express_app.git mluukkai/express_app <docker username>/testing

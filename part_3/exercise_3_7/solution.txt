@@ -1,0 +1,7 @@
+Pre-optimization sizes:
+frontend: 611 MB
+backend: 467 MB
+
+Post optimization sizes:
+frontend: 393 MB
+backend: 44.8 MB
